@@ -1,0 +1,9 @@
+com/rough/TestProperties.class
+com/testcases/OpenAccountTest.class
+com/testcases/AddCustomerByBankManagerLogin.class
+com/testcases/BankManagerLoginTest.class
+com/base/TestBase.class
+com/listeners/CustomListeners.class
+com/utilities/ExcelReader.class
+com/utilities/ExtentManager.class
+com/utilities/TestUtil.class

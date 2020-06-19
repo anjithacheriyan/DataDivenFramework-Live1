@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Login successful twice]]>
+    </line>
+    <line>
+      <![CDATA[<a href="\Users\anji\Documents\Selenium\screenshots\error.jpg"><Sreenshot></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driver Basics" duration-ms="4523" started-at="2020-06-11T15:48:31 IST" finished-at="2020-06-11T15:48:36 IST">
+    <groups>
+    </groups>
+    <test name="BankManagerLoginTest" duration-ms="3200" started-at="2020-06-11T15:48:31 IST" finished-at="2020-06-11T15:48:34 IST">
+      <class name="com.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="LoginAsBankManager()[pri:0, instance:com.testcases.BankManagerLoginTest@11c9af63]" name="LoginAsBankManager" duration-ms="3135" started-at="2020-06-11T15:48:31 IST" finished-at="2020-06-11T15:48:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Login successful twice]]>
+            </line>
+            <line>
+              <![CDATA[<a href="\Users\anji\Documents\Selenium\screenshots\error.jpg"><Sreenshot></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginAsBankManager -->
+      </class> <!-- com.testcases.BankManagerLoginTest -->
+    </test> <!-- BankManagerLoginTest -->
+    <test name="AddCustomerByBankManagerLogin" duration-ms="1211" started-at="2020-06-11T15:48:34 IST" finished-at="2020-06-11T15:48:36 IST">
+      <class name="com.testcases.AddCustomerByBankManagerLogin">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testcases.AddCustomerByBankManagerLogin@1bb266b3]" name="SetUp" is-config="true" duration-ms="16575" started-at="2020-06-11T15:48:14 IST" finished-at="2020-06-11T15:48:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcases.AddCustomerByBankManagerLogin@1bb266b3]" name="AddCustomer" duration-ms="1178" started-at="2020-06-11T15:48:34 IST" data-provider="getData" finished-at="2020-06-11T15:48:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anjitha ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cheriyan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hguy36]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.AddCustomerByBankManagerLogin@1bb266b3]" name="tearDown" is-config="true" duration-ms="175" started-at="2020-06-11T15:48:36 IST" finished-at="2020-06-11T15:48:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.AddCustomerByBankManagerLogin -->
+    </test> <!-- AddCustomerByBankManagerLogin -->
+  </suite> <!-- Data Driver Basics -->
+</testng-results>

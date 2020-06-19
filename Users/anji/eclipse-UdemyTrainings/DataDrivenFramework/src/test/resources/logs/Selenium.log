@@ -1,0 +1,6 @@
+12:19:15,095 DEBUG devpinoyLogger:45 - {testurl=http://www.way2automation.com/angularjs-protractor/banking/, browser=Chrome, implicitwait=10}
+12:19:15,098 DEBUG devpinoyLogger:60 - {bankManagerLogin=//button[@ng-click="manager()"], costumerLoginButn=//button[@ng-click="customer()"]}
+12:19:17,099 DEBUG devpinoyLogger:71 - Chrome launched !!!
+12:19:19,379 DEBUG devpinoyLogger:83 - URL launched :http://www.way2automation.com/angularjs-protractor/banking/
+12:19:19,648 DEBUG devpinoyLogger:22 - clicked successfully !!!
+12:19:22,798 DEBUG devpinoyLogger:101 - browser closed !!!
