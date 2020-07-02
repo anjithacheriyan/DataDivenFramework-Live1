@@ -4,6 +4,8 @@
 /Users/anji/eclipse-UdemyTrainings/DataDrivenFramework/src/test/java/com/rough/TestProperties.java
 /Users/anji/eclipse-UdemyTrainings/DataDrivenFramework/src/test/java/com/listeners/CustomListeners.java
 /Users/anji/eclipse-UdemyTrainings/DataDrivenFramework/src/test/java/com/base/TestBase.java
+/Users/anji/eclipse-UdemyTrainings/DataDrivenFramework/src/test/java/com/utilities/MonitoringMail.java
+/Users/anji/eclipse-UdemyTrainings/DataDrivenFramework/src/test/java/com/utilities/TestConfig.java
 /Users/anji/eclipse-UdemyTrainings/DataDrivenFramework/src/test/java/com/utilities/ExtentManager.java
 /Users/anji/eclipse-UdemyTrainings/DataDrivenFramework/src/test/java/com/utilities/ExcelReader.java
 /Users/anji/eclipse-UdemyTrainings/DataDrivenFramework/src/test/java/com/utilities/TestUtil.java

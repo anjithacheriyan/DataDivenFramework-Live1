@@ -2,6 +2,11 @@ package com.listeners;
 
 import java.io.IOException;
 
+import javax.mail.MessagingException;
+import javax.mail.internet.AddressException;
+
+import org.testng.ISuite;
+import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -10,9 +15,50 @@ import org.testng.SkipException;
 
 import com.base.TestBase;
 import com.relevantcodes.extentreports.LogStatus;
+import com.utilities.MonitoringMail;
+import com.utilities.TestConfig;
 import com.utilities.TestUtil;
 
-public class CustomListeners extends TestBase implements ITestListener {
+public class CustomListeners extends TestBase implements ITestListener,ISuiteListener {
+
+	@Override
+	public void onStart(ISuite suite) {
+		// TODO Auto-generated method stub
+		ISuiteListener.super.onStart(suite);
+	}
+
+	@Override
+	public void onFinish(ISuite suite) {
+		// TODO Auto-generated method stub
+		
+		
+
+			ISuiteListener.super.onFinish(suite);
+
+			MonitoringMail mail= new MonitoringMail();
+			
+			String messagebody="/Users/anji/eclipse-UdemyTrainings/DataDrivenFramework/target/surefire-reports/html/extent.html";
+			
+			
+			
+						try {
+							mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messagebody);
+						} catch (AddressException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						} catch (MessagingException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					
+				
+				
+			
+	}
+
+	
+
+	
 
 	@Override
 	public void onTestStart(ITestResult result) {

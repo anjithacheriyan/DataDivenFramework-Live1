@@ -39,7 +39,7 @@ public class TestBase {
 	public static WebDriverWait wait;
 	public  ExtentReports rep=ExtentManager.getInstance();
 	public static ExtentTest test;
-	
+	public static String browser;
 	
 	public  static Boolean IsElementPrsent(By by) {
 		
@@ -164,6 +164,21 @@ public class TestBase {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			
+			
+			
+			if(System.getenv("browser")!=null && !System.getenv("browser").isEmpty()) {
+				
+				browser=System.getenv("browser");
+			}else
+				
+			{
+				browser=config.getProperty("browser");
+			}
+			
+			config.setProperty("browser",browser);
+			
+			
 			
 			if(config.getProperty("browser").equals("Chrome")) {
 				

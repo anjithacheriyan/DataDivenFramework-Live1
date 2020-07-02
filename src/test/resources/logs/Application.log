@@ -1,7 +1,7 @@
-18/06/2020 15:09:49 devpinoyLogger {testurl=http://www.way2automation.com/angularjs-protractor/banking/, browser=Chrome, implicitwait=10}
-18/06/2020 15:09:49 devpinoyLogger {PostCodebtn=//input[@ng-model="postCd"], customerName=//select[@id="userSelect"], firstnameBtn=//input[@ng-model="fName"], processBtn=//button[@value], addCustomerBtn=//button[@ng-click="addCust()"], openAccountBtn=//button[@ng-click="openAccount()"], costumerLoginButn=//button[@ng-click="customer()"], bankManagerLogin=//button[@ng-click="manager()"], currency=//select[@id="currency"], AddcustomerFormBtn=//button[@class="btn btn-default"], lastNamebtn=//input[@ng-model="lName"]}
-18/06/2020 15:09:53 devpinoyLogger Chrome launched !!!
-18/06/2020 15:09:55 devpinoyLogger URL launched :http://www.way2automation.com/angularjs-protractor/banking/
-18/06/2020 15:09:56 devpinoyLogger navigated to bank manager !!!
-18/06/2020 15:09:59 devpinoyLogger Add customer button found successfully !!!
-18/06/2020 15:10:05 devpinoyLogger browser closed !!!
+02/07/2020 12:10:15 devpinoyLogger {testurl=http://www.way2automation.com/angularjs-protractor/banking/, browser=Chrome, implicitwait=10}
+02/07/2020 12:10:15 devpinoyLogger {PostCodebtn=//input[@ng-model="postCd"], customerName=//select[@id="userSelect"], firstnameBtn=//input[@ng-model="fName"], processBtn=//button[@value], addCustomerBtn=//button[@ng-click="addCust()"], openAccountBtn=//button[@ng-click="openAccount()"], costumerLoginButn=//button[@ng-click="customer()"], bankManagerLogin=//button[@ng-click="manager()"], currency=//select[@id="currency"], AddcustomerFormBtn=//button[@class="btn btn-default"], lastNamebtn=//input[@ng-model="lName"]}
+02/07/2020 12:10:22 devpinoyLogger Chrome launched !!!
+02/07/2020 12:10:24 devpinoyLogger URL launched :http://www.way2automation.com/angularjs-protractor/banking/
+02/07/2020 12:10:24 devpinoyLogger navigated to bank manager !!!
+02/07/2020 12:10:27 devpinoyLogger Add customer button found successfully !!!
+02/07/2020 12:10:38 devpinoyLogger browser closed !!!
